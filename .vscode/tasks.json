@@ -6,7 +6,9 @@
 			"args": [
 				"build",
 				"web",
-				"--web-renderer=auto"
+				"--web-renderer=canvaskit",
+				"--release",
+				// "--source-maps"
 			],
 			"group": {
 				"kind": "build",
