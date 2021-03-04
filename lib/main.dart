@@ -84,12 +84,12 @@ class _MainPageState extends State<MainPage>
           //     EdgeInsets.symmetric(horizontal: 18.0, vertical: 8),
           labelColor: Colors.green,
         ),
-        // flexibleSpace: Container(
-        //   decoration: BoxDecoration(
-        //       image: DecorationImage(
-        //           image: AssetImage('assets/img/back_top.jpg'),
-        //           fit: BoxFit.cover)),
-        // ),
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets/img/back_top.jpg'),
+                  fit: BoxFit.cover)),
+        ),
       ),
       //Todo
       body: TabBarView(
@@ -107,10 +107,10 @@ class _MainPageState extends State<MainPage>
                 style: GoogleFonts.notoSans(
                     textStyle: TextStyle(color: Colors.white)),
               ),
-              // decoration: BoxDecoration(
-              //     image: DecorationImage(
-              //         image: AssetImage('assets/img/back_sidebar.jpg'),
-              //         fit: BoxFit.cover)),
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage('assets/img/back_sidebar.jpg'),
+                      fit: BoxFit.cover)),
             ),
             ListTile(
               title: Text("会社概要",
